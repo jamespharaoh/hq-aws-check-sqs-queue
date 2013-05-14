@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hq-aws-check-sqs-queue (0.0.0)
+    hq-aws-check-sqs-queue (0.0.1)
       aws-sdk (>= 1.9.5)
       hq-tools (>= 0.8.0)
       libxml-ruby (>= 2.6.0)
