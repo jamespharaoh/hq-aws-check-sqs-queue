@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "hq/aws/check-sqs-queue/script"
+
+script = HQ::AWS::CheckSqsQueue::Script.new
+script.args = ARGV
+script.main
+exit script.status
